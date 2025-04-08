@@ -10,14 +10,11 @@ from dotenv import load_dotenv
 import time
 import sys
 
-# Load environment variables
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-# Configure profanity filter
 profanity.load_censor_words()
 
-# API configuration
 GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 HEADERS = {
     "Authorization": f"Bearer {GROQ_API_KEY}",
@@ -25,7 +22,6 @@ HEADERS = {
 }
 
 def validate_input_file(file_path):
-    """Validate the input file exists and has correct format"""
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Input file not found: {file_path}")
     
@@ -47,7 +43,6 @@ def validate_input_file(file_path):
     return df
 
 def call_llama_moderation(comment):
-    """Analyze comment for offensive content using LLAMA API"""
     prompt = f"""Analyze this comment for offensive content. Return JSON with:
 - is_offensive (boolean)
 - offense_type (string: hate_speech, toxicity, profanity, harassment, or none)
@@ -91,7 +86,6 @@ Return ONLY valid JSON with no additional text or formatting."""
         return None
 
 def process_comments(df, min_severity=1):
-    """Process comments through profanity filter and AI moderation"""
     results = []
     print("\nProcessing comments through moderation system...")
     
@@ -122,7 +116,6 @@ def process_comments(df, min_severity=1):
                 result["explanation"] = "Analysis failed"
             time.sleep(0.5)
 
-        # Apply severity threshold
         if result["severity"] < min_severity:
             result["is_offensive"] = False
             
@@ -131,7 +124,6 @@ def process_comments(df, min_severity=1):
     return pd.DataFrame(results)
 
 def generate_report(analyzed_df):
-    """Generate detailed moderation report"""
     offensive = analyzed_df[analyzed_df["is_offensive"] == True]
     
     print("\n=== MODERATION REPORT ===")
@@ -163,7 +155,6 @@ def generate_report(analyzed_df):
         print("\n✅ No offensive comments detected")
 
 def generate_visualizations(analyzed_df, chart_type="pie"):
-    """Generate visualizations based on chart type"""
     offensive = analyzed_df[analyzed_df["is_offensive"] == True]
     
     if offensive.empty:
@@ -200,7 +191,6 @@ def generate_visualizations(analyzed_df, chart_type="pie"):
         plt.close()
 
 def parse_arguments():
-    """Configure and parse command line arguments"""
     parser = argparse.ArgumentParser(
         description="AI Comment Moderation System",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
