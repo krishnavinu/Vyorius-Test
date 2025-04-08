@@ -28,7 +28,7 @@ A Python application that detects offensive content in user comments using both 
 
 ### Clone the Repository
 - ```bash
-    https://github.com/krishnavinu/Vyorius-Test.git
+  https://github.com/krishnavinu/Vyorius-Test.git
 
 ## Install dependecy
 - ```bash
@@ -59,14 +59,14 @@ JSON Format (comments.json)
   ]
 ## USAGE
  -  ```bash:
-      python modai.py input.json --output-format both --chart-type both  --min-severity 5
+    python modai.py input.json --output-format both --chart-type both  --min-severity 5
 
 - --output-format both [can change between csv or jason]
 - --chart-type both [can change between pie or bar]
 - --min-severity 5 [adjust from 1-10]
 ## Samle Output:
 - ```bash
-       python modai.py input.json --output-format both --chart-type both --min-severity 5
+  python modai.py input.json --output-format both --chart-type both --min-severity 5
 - ```bash 
     Loaded 21 comments from input.json
 
