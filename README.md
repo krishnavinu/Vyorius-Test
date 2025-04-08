@@ -59,16 +59,16 @@ JSON Format (comments.json)
   ]
 ## USAGE
  -  ```bash:
-    python modai.py input.json --output-format both --chart-type both  --min-severity 5
-
+    python modai.py comments.json --output-format both --chart-type both  --min-severity 5
+- u can give .json/.csv file as input
 - --output-format both [can change between csv or jason]
 - --chart-type both [can change between pie or bar]
 - --min-severity 5 [adjust from 1-10]
 ## Samle Output:
 - ```bash
-  python modai.py input.json --output-format both --chart-type both --min-severity 5
+  python modai.py comments.json --output-format both --chart-type both --min-severity 5
 - ```bash 
-    Loaded 21 comments from input.json
+    Loaded 21 comments from comments.json
 
   Sample comments:
    comment_id    username                                   comment_text
@@ -81,8 +81,8 @@ JSON Format (comments.json)
   Processing comments through moderation system...
   Analyzing comments: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21       [00:20<00:00,  1.00it/s] 
 
-  💾 Saved CSV results to 'input_analyzed.csv'
-  💾 Saved JSON results to 'input_analyzed.json'
+  💾 Saved CSV results to 'comments_analyzed.csv'
+  💾 Saved JSON results to 'comments_analyzed.json'
 
   === MODERATION REPORT ===
 
@@ -137,8 +137,8 @@ JSON Format (comments.json)
   📊 Saved bar chart as 'offense_types_bar.png'
   
 ## Output file
-- input_analyzed.csv
-- input_analyzed.jason
+- comments_analyzed.csv
+- comments_analyzed.jason
   
 ## Sample Graph
 ![offense_types_pie](https://github.com/user-attachments/assets/5ce02743-118f-4e4f-81f7-86eb4436515b)
