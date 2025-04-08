@@ -1,0 +1,6 @@
+pandas
+tqdm
+matplotlib
+better-profanity
+python-dotenv
+requests

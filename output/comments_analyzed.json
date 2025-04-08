@@ -1,0 +1,191 @@
+[
+  {
+    "comment_id":1,
+    "username":"sunny_side",
+    "comment_text":"Amazing work! Really enjoyed this.",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment is a positive and respectful statement."
+  },
+  {
+    "comment_id":2,
+    "username":"rageboy77",
+    "comment_text":"This is total trash, go learn something first.",
+    "is_offensive":true,
+    "offense_type":"toxicity",
+    "severity":6,
+    "explanation":"The comment contains aggressive language and a condescending tone, which can be perceived as toxic."
+  },
+  {
+    "comment_id":3,
+    "username":"happyvibes",
+    "comment_text":"Sending you love and good energy! \ud83d\ude0a",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment contains positive sentiments and emojis, indicating kindness and friendliness."
+  },
+  {
+    "comment_id":4,
+    "username":"darkwarrior",
+    "comment_text":"This is the dumbest thing I've ever seen.",
+    "is_offensive":true,
+    "offense_type":"toxicity",
+    "severity":6,
+    "explanation":"The comment contains insulting language, which can be perceived as toxic."
+  },
+  {
+    "comment_id":5,
+    "username":"kindheart",
+    "comment_text":"Thank you for sharing this, very helpful!",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment is a polite expression of gratitude and does not contain any offensive content."
+  },
+  {
+    "comment_id":6,
+    "username":"mean_girl",
+    "comment_text":"You're such a loser, nobody likes you.",
+    "is_offensive":true,
+    "offense_type":"harassment",
+    "severity":8,
+    "explanation":"The comment contains a personal attack and insult, which can be considered harassing behavior."
+  },
+  {
+    "comment_id":7,
+    "username":"code_master",
+    "comment_text":"Cool project, but needs some optimization.",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment is a constructive suggestion and does not contain any offensive language."
+  },
+  {
+    "comment_id":8,
+    "username":"wildfire",
+    "comment_text":"Why are you even posting this nonsense?",
+    "is_offensive":true,
+    "offense_type":"toxicity",
+    "severity":4,
+    "explanation":"The comment contains aggressive language and a condescending tone."
+  },
+  {
+    "comment_id":9,
+    "username":"graceful_penguin",
+    "comment_text":"This made me smile. Great job! \ud83d\udc27",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment is a positive and innocuous expression of appreciation."
+  },
+  {
+    "comment_id":10,
+    "username":"toxic123",
+    "comment_text":"You're so f***ing annoying, go away.",
+    "is_offensive":true,
+    "offense_type":"profanity",
+    "severity":8,
+    "explanation":"The comment contains profanity and is directed at an individual in a derogatory manner."
+  },
+  {
+    "comment_id":11,
+    "username":"calm_coder",
+    "comment_text":"Nicely explained, thanks for the clarity.",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment is a polite expression of gratitude and does not contain any offensive content."
+  },
+  {
+    "comment_id":12,
+    "username":"sarcastic_buzz",
+    "comment_text":"Yeah right, like this is useful at all.",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment expresses frustration but does not contain offensive language."
+  },
+  {
+    "comment_id":13,
+    "username":"peace_maker",
+    "comment_text":"We need more positivity like this in the world.",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment expresses a positive sentiment and does not contain any offensive language."
+  },
+  {
+    "comment_id":14,
+    "username":"hate_speaker",
+    "comment_text":"Go die in a hole, nobody cares about your opinion.",
+    "is_offensive":true,
+    "offense_type":"harassment",
+    "severity":8,
+    "explanation":"The comment contains a direct and aggressive attack on the recipient, wishing harm and expressing disdain for their opinion."
+  },
+  {
+    "comment_id":15,
+    "username":"robot_dude",
+    "comment_text":"01001100 01101111 01101100 nice one \ud83e\udd16",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment appears to be a binary representation of a message, followed by a positive phrase and a robot emoji, and does not contain any offensive content."
+  },
+  {
+    "comment_id":16,
+    "username":"supportive_fox",
+    "comment_text":"You're improving with every video. Keep it up!",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment is a positive and supportive message."
+  },
+  {
+    "comment_id":17,
+    "username":"angry_boi",
+    "comment_text":"This is why I hate this platform. Full of crap.",
+    "is_offensive":true,
+    "offense_type":"profanity",
+    "severity":5,
+    "explanation":"Detected by local profanity filter"
+  },
+  {
+    "comment_id":18,
+    "username":"genuine_gal",
+    "comment_text":"Honestly helpful and informative. Thank you!",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment is a genuine expression of gratitude and appreciation."
+  },
+  {
+    "comment_id":19,
+    "username":"loudmouth",
+    "comment_text":"This is complete and utter bulls**t.",
+    "is_offensive":true,
+    "offense_type":"profanity",
+    "severity":6,
+    "explanation":"The comment contains a censored profanity, indicating strong frustration or annoyance."
+  },
+  {
+    "comment_id":20,
+    "username":"positivity_rules",
+    "comment_text":"Sending virtual hugs your way \ud83e\udd17",
+    "is_offensive":false,
+    "offense_type":"none",
+    "severity":0,
+    "explanation":"The comment is a kind and supportive message."
+  },
+  {
+    "comment_id":21,
+    "username":"hateful_mind",
+    "comment_text":"You are a worthless piece of trash. People like you should be eliminated from society. I hope you suffer.",
+    "is_offensive":true,
+    "offense_type":"hate_speech",
+    "severity":10,
+    "explanation":"The comment contains a direct attack on an individual, wishing harm and elimination from society, which is a severe form of hate speech."
+  }
+]

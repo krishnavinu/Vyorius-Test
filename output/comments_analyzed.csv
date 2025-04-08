@@ -1,0 +1,22 @@
+comment_id,username,comment_text,is_offensive,offense_type,severity,explanation
+1,sunny_side,Amazing work! Really enjoyed this.,False,none,0,The comment is a positive and respectful statement.
+2,rageboy77,"This is total trash, go learn something first.",True,toxicity,6,"The comment contains aggressive language and a condescending tone, which can be perceived as toxic."
+3,happyvibes,Sending you love and good energy! 😊,False,none,0,"The comment contains positive sentiments and emojis, indicating kindness and friendliness."
+4,darkwarrior,This is the dumbest thing I've ever seen.,True,toxicity,6,"The comment contains insulting language, which can be perceived as toxic."
+5,kindheart,"Thank you for sharing this, very helpful!",False,none,0,The comment is a polite expression of gratitude and does not contain any offensive content.
+6,mean_girl,"You're such a loser, nobody likes you.",True,harassment,8,"The comment contains a personal attack and insult, which can be considered harassing behavior."
+7,code_master,"Cool project, but needs some optimization.",False,none,0,The comment is a constructive suggestion and does not contain any offensive language.
+8,wildfire,Why are you even posting this nonsense?,True,toxicity,4,The comment contains aggressive language and a condescending tone.
+9,graceful_penguin,This made me smile. Great job! 🐧,False,none,0,The comment is a positive and innocuous expression of appreciation.
+10,toxic123,"You're so f***ing annoying, go away.",True,profanity,8,The comment contains profanity and is directed at an individual in a derogatory manner.
+11,calm_coder,"Nicely explained, thanks for the clarity.",False,none,0,The comment is a polite expression of gratitude and does not contain any offensive content.
+12,sarcastic_buzz,"Yeah right, like this is useful at all.",False,none,0,The comment expresses frustration but does not contain offensive language.
+13,peace_maker,We need more positivity like this in the world.,False,none,0,The comment expresses a positive sentiment and does not contain any offensive language.
+14,hate_speaker,"Go die in a hole, nobody cares about your opinion.",True,harassment,8,"The comment contains a direct and aggressive attack on the recipient, wishing harm and expressing disdain for their opinion."
+15,robot_dude,01001100 01101111 01101100 nice one 🤖,False,none,0,"The comment appears to be a binary representation of a message, followed by a positive phrase and a robot emoji, and does not contain any offensive content."
+16,supportive_fox,You're improving with every video. Keep it up!,False,none,0,The comment is a positive and supportive message.
+17,angry_boi,This is why I hate this platform. Full of crap.,True,profanity,5,Detected by local profanity filter
+18,genuine_gal,Honestly helpful and informative. Thank you!,False,none,0,The comment is a genuine expression of gratitude and appreciation.
+19,loudmouth,This is complete and utter bulls**t.,True,profanity,6,"The comment contains a censored profanity, indicating strong frustration or annoyance."
+20,positivity_rules,Sending virtual hugs your way 🤗,False,none,0,The comment is a kind and supportive message.
+21,hateful_mind,You are a worthless piece of trash. People like you should be eliminated from society. I hope you suffer.,True,hate_speech,10,"The comment contains a direct attack on an individual, wishing harm and elimination from society, which is a severe form of hate speech."
